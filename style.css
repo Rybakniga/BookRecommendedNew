@@ -1,0 +1,72 @@
+body {
+    /* background:#e5fcfd; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #e5fcfd); /* Standard syntax (must be last) */
+  }
+
+.menu ul li{
+    padding: 10px;
+    font-family: Krona One, sans-serif;
+    font-size: 20px;    
+}
+.menu ul > li hover{
+    padding: 10px;
+}
+.menu ul > li:hover{
+    padding: 10px;
+    background-color:linear-gradient(to right, rgba(255,0,0,0), #e5fcfd);
+
+}
+.menu ul li, .menu ul{
+    display: inline-block;
+}
+.menu ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+    
+}
+.menu ul ul{
+    display: none;
+    position: absolute; 
+    margin-top: 10px;
+    margin-left: -10;
+} 
+.menu ul ul a{
+   background:linear-gradient(to right, rgba(255,0,0,0), #e5fcfd);
+   font-size: 15px;
+}
+.menu ul a {
+    color: rgb(139, 21, 21);
+    text-decoration: none;
+}
+.menu li:hover ul{ 
+    display: block;
+    background-color:linear-gradient(to right, rgba(255,0,0,0), #e5fcfd);
+}
+
+.menu li:hover li{ 
+    display: block;
+    background-color:linear-gradient(to right, rgba(255,0,0,0), #e5fcfd);
+}
+/* .menu ul:hover ul{
+    background-color: skyblue;
+} */
+.btn{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.button {
+    background-color: #e5fcfd;
+    border: 1px;
+    border-radius: 8px;
+    color: rgb(139, 21, 21);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: skyblue;
+} 
